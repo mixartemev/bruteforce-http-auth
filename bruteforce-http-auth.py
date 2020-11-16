@@ -203,7 +203,7 @@ class HTTP_Auth():
 			target['error'] = e
 		
 		# Target validation
-		if target['error'] is None and (target['authentication type'] is 'basic' or target['authentication type'] is 'digest' or target['authentication type'] is 'ntlm') and target['status code'] == 401:
+		if target['error'] is None and (target['authentication type'] == 'basic' or target['authentication type'] == 'digest' or target['authentication type'] == 'ntlm') and target['status code'] == 401:
 			target['validated'] = True
 				
 		return target

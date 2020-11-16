@@ -1,2 +1,4 @@
 logs/
 libs/__pycache__
+/.idea
+/venv

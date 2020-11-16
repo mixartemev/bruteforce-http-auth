@@ -6,7 +6,6 @@ import sys
 import datetime
 
 
-
 class colors:
 	RESET_ALL = '\033[0m'
 	BRIGHT = '\033[1m'
