@@ -1,8 +1,0 @@
-jboss:jboss
-admin:admin
-root:root
-admin:jboss
-jboss:admin
-manager:
-manager:jboss
-manager:s3cret
